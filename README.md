@@ -11,7 +11,7 @@ Installation
 
 Simply install AutoRouting package from NuGet to your ASP.NET MVC project:
 
-PM> Install-Package AutoRouting
+	PM> Install-Package AutoRouting
 
 
 How does it work?
