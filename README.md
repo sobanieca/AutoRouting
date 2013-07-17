@@ -43,5 +43,6 @@ You can check the magic under "Source" folder.
 
 Remarks
 -------
-AutoRouting is not currently working with Areas. If you need it to work with it feel free to "git clone" and contribute.
+* AutoRouting is not currently working with Areas. If you need it feel free to "git clone" and contribute.
+* If you have already defined more sophisticated routes (like the ones containing constraints etc.) they will still work, since AutoRouting is being fired AFTER the Application_Start() event, therefore it will not override already defined routes.
 
